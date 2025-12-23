@@ -101,7 +101,7 @@ jobs:
         with:
           path: |
             USDinst
-          key: ${{ runner.os }}-BuildUSD-py${{ env.PYTHON_VERSION }}-${{ hashFiles('build_scripts/**/*') }}
+          key: ${{ runner.os }}-BuildUSD-py${{ env.PYTHON_VERSION }}-${{ hashFiles('build_scripts/**/*') }}-aarch64
       - name: Install Python
         uses: actions/setup-python@v5
         with:
