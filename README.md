@@ -223,6 +223,7 @@ Set the environment variables specified by the script when it finishes and
 launch `usdview` with a sample asset.
 
 ```
+# a no-op document change
 > usdview OpenUSD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
 ```
 
