@@ -85,7 +85,6 @@ jobs:
   Linux-ARM:
     needs:
       - Validation
-    if: ${{ github.event.issue.pull_request }}
     runs-on: ubuntu-22.04-arm
     env:
       PYTHON_VERSION: "3.9"
